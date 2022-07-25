@@ -23,13 +23,11 @@ When the caller dials the XRPhone toll-free number the call is routed to [Twilio
 The active inbound call contains metadata such as the phone number of the caller. **XRPhone Server API** takes this phone number and checks with the **Supabase Postgres DB** to confirm that the caller has an active XRPhone customer account. We need to make sure the inbound caller has already setup their phone number with XRPhone because this is how the XRPhone system is able to to send a push notification to the active callers Xumm wallet containing the correct merchant invoice payment request details.
 
 If the caller is not found in the database they will be instructed to create an XRPhone account to link with their mobile phone number. XRPhone accounts can be created either thru the **XRPhone Web Client** or via the **XRPhone Xumm xApp Mobile Client**.
-[block:callout]
-{
-  "type": "info",
-  "body": "Currently XRPhone Merchant accounts can only be created thru the **XRPhone Web Client**. Regular customer accounts can use either interface to establish an account.",
-  "title": "Note regarding XRPhone Merchant Account Creation"
-}
-[/block]
+
+>[!NOTE]
+><b>Note regarding XRPhone Merchant Account Creation</b><br>
+Currently XRPhone Merchant accounts can only be created thru the **XRPhone Web Client**. Regular customer accounts can use either interface to establish an account.
+
 Assuming the active caller was found in the **Supabase Postgres DB**, the voice response system asks the caller to enter the XRPhone Merchant phone number for the invoice they will be paying with XRP.
 
 ---
