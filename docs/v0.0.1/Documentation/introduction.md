@@ -3,7 +3,7 @@
        if(location.pathname === '/') {
             document.querySelector('.sidebar-nav > ul > li:nth-child(2) > p').classList.add('active');
         }        
-    }, 250);
+    }, 500);
 
 </script>
 ## Welcome to XRPhone Docs!
