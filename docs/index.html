@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link id="favicon" href="https://xrphone.app/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/buble.css" />
+  <style>
+    #main a {
+      color: #eb9043 !important;
+    }
+
+    #main img {
+      border-radius: 6px;
+    }
+
+    .github-corner svg {
+      fill: black;
+    }
+
+    .sidebar {
+      padding-top: 0;
+      background-color: black;
+      background-position: 50%;
+      background-size: cover;
+      background-image: url("https://xrphone.app/images/home/home-background.jpeg");
+    }
+    
+    .sidebar .app-name {
+      background-color: black;
+    }
+
+    .sidebar li .active {
+      background-color: #eb9043;
+      color: black;
+      padding: 0 0.75rem;
+      border-radius: 16px;
+      font-weight: bold;
+      margin-left: -10px;
+    }
+
+    .sidebar li .active a {
+      color: black;
+    }
+
+    .sidebar li h3 {
+      color: #ffffff;
+      text-transform: uppercase;
+      padding-left: 7px;
+      background-color: #054246;
+      margin-left: -5px;
+    }
+
+    .sidebar li a {
+      color: #bfbfbf;
+    }
+
+    .sidebar-nav {
+      background-color: #000000d4;
+      border-radius: 16px;
+    }
+
+    .sidebar-toggle span {
+      background-color: white;
+    }
+
+    .sidebar-toggle {
+      width: 36px;
+      background-color: black !important;
+    }
+    
+    @media screen and (max-width: 768px) {
+      .sidebar-toggle {
+        padding: 15px 30px 10px 10px;
+      }
+
+      body.close .sidebar-toggle {
+        padding: 15px 30px 10px 10px;
+      }
+    }
+
+    .border {
+      border: 1px solid black;
+    }
+    .caption {
+      text-align: center;
+      font-style: italic;
+      margin-top: 0.5rem;
+      margin-bottom: 2.5rem;
+    }
+    .iphone {
+      width: 300px;
+    }
+  </style>
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      name: 'XRPhone',
+      repo: 'https://github.com/xrphone',
+      logo: '/_media/logo.png',
+      executeScript: true,
+      nameLink: '/',
+      loadSidebar: true,
+      autoHeader: true,
+      auto2top: true,
+      alias: {
+        '/': '/v0.0.1/Documentation/introduction.md'
+      },
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- Docsify Plugins -->
+  <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
+</body>
+</html>
