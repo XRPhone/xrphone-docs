@@ -1,9 +1,9 @@
 <script>
     setTimeout(() => {
-       if(location.pathname === '/') {
+       if(location.pathname === '/' || location.pathname === '/xrphone-docs/') {
             document.querySelector('.sidebar-nav > ul > li:nth-child(2) > p').classList.add('active');
         }        
-    }, 500);
+    }, 250);
 
 </script>
 ## Welcome to XRPhone Docs!
