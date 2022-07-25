@@ -5,7 +5,7 @@
 * [Supported Integrations](/v1/documentation/supported-integrations.md)
     * [Quickbooks Online](/v1/documentation/supported-integrations/quickbooks-online.md)
     * [Freshbooks](/v1/documentation/supported-integrations/freshbooks.md)
-    * [Supported Integrations](/v1/documentation/supported-integrations/xero.md)
+    * [Xero](/v1/documentation/supported-integrations/xero.md)
     * [Custom App](/v1/documentation/supported-integrations/custom-app.md)
 * [Helpful Links](/v1/documentation/helpful-links.md)
 
