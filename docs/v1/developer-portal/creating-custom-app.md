@@ -91,4 +91,4 @@ This is a secret that you should not ever let anyone see. Keep this secure. If f
 
 >[!NOTE]
 ><b>API Key & API Secret</b><br>
-These credentials are used for example in the [XRPhone SDK Library (Node.js) ](/v0.0.1/SDK%20Libraries/xrphone-sdk-nodejs). They are needed when the application is responding to a webhook request.
+These credentials are used for example in the [XRPhone SDK Library (Node.js) ](/v1/sdk-libraries/xrphone-sdk-nodejs). They are needed when the application is responding to a webhook request.

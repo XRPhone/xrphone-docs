@@ -119,7 +119,7 @@ The Express.js API includes a POST route handler `/webhook/callback` which is wh
 
 The route is configured with Auth0 middleware `requiresAuth` which will verify that the XRPhone server merchant authorization credentials are valid and eligible to call the app. 
 
-1. Follow the steps [here](/v0.0.1/Developer%20Portal/custom-app-example.md) to clone the example app to your local system and install all package dependencies. 
+1. Follow the steps [here](/v1/developer-portal/custom-app-example.md) to clone the example app to your local system and install all package dependencies. 
 
 2. Once this is complete, copy the `.env.example` to `.env`. You can do this by running 
 

@@ -1,6 +1,6 @@
 >[!NOTE]
 ><b>How are app logs created?</b><br>
-When XRPhone communicates with a [custom app](/v0.0.1/Developer%20Portal/creating-custom-app.md), a [webhook](https://en.wikipedia.org/wiki/Webhook) is triggered that calls the external application and will await a response.
+When XRPhone communicates with a [custom app](/v1/developer-portal/creating-custom-app.md), a [webhook](https://en.wikipedia.org/wiki/Webhook) is triggered that calls the external application and will await a response.
 
 For example, let's say we have a merchant who connected a custom app called "Super Cool Accounting App". This is an app created by an external developer who an XRPhone merchant needs to interface with. 
 

@@ -21,7 +21,7 @@ XRPhone custom apps are made by developers who wish to connect external invoice 
 # Prerequisites
 
 - Created developer account on the https://developer.xrphone.app portal.
-- [Created app on developer portal](/v0.0.1/Developer%20Portal/creating-custom-app). This is where you get the apps API Key & API Secret.
+- [Created app on developer portal](/v1/developer-portal/creating-custom-app). This is where you get the apps API Key & API Secret.
 - Obtained access to the `xrphone-sdk`
 
 # How does it work?

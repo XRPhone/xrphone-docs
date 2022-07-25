@@ -11,7 +11,7 @@ In addition to the core supported integrations, XRPhone supports custom apps bui
 
 To view specific details about each supported integration please visit the following links:
 
-- [Supported Integrations > Quickbooks Online](/v0.0.1/Documentation/supported-integrations/quickbooks-online.md)
-- [Supported Integrations > Freshbooks](/v0.0.1/Documentation/supported-integrations/freshbooks.md)
-- [Supported Integrations > Xero](/v0.0.1/Documentation/supported-integrations/xero.md)
+- [Supported Integrations > Quickbooks Online](/v1/documentation/supported-integrations/quickbooks-online.md)
+- [Supported Integrations > Freshbooks](/v1/documentation/supported-integrations/freshbooks.md)
+- [Supported Integrations > Xero](/v1/documentation/supported-integrations/xero.md)
 - Supported Integrations > Custom App
