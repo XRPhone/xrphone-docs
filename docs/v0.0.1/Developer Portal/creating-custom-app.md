@@ -27,7 +27,6 @@ To make a developer app appear for all XRPhone Merchants the app needs to be tog
 While the app is in the development stages and sandboxed in-order to interact with the app you will want to enter the **Debug Merchant #**. 
 
 >[!NOTE]
-><b>Debug Merchant #</b><br>
 **Debug Merchant #** is the phone number linked to a XRPhone Merchant account. When this number is provided the XRPhone Merchant will be able to use this app by connecting it to their account. The app will be marked as Sandboxed. This setting enables the app developer to enable a XRPhone Merchant to test their app integration.
 
 **Name** 
