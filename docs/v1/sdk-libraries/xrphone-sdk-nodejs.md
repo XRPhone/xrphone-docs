@@ -1,5 +1,5 @@
 >[!WARNING]
->This feature is not yet released for public usage.\n\nYou can view the repository on GitHub here:<br>
+>This feature is not yet released for public usage. You can view the repository on GitHub here:<br>
 [https://github.com/XRPhone/xrphone-sdk-nodejs](https://github.com/XRPhone/xrphone-sdk-nodejs)
 
 <a href="https://npmjs.org/package/xrphone-sdk-nodejs"><img src="https://img.shields.io/npm/v/xrphone.svg?style=flat-square" alt="NPM version"></a>

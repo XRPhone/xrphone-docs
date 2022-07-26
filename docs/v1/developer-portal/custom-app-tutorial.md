@@ -75,7 +75,7 @@ Let's now fill in the connection fields using some of the information we obtaine
 
 >[!WARNING]
 ><b>Replace the values in brackets</b><br>
-All of the values below with bracket need to be replaced with the literal value. \n\nIf for example the value of your Auth0 app domain was `foo.us.auth0.com` then you would replace `<YOUR_AUTH0_APP_DOMAIN>` with `foo.us.auth0.com`.
+All of the values below with bracket need to be replaced with the literal value. If for example the value of your Auth0 app domain was `foo.us.auth0.com` then you would replace `<YOUR_AUTH0_APP_DOMAIN>` with `foo.us.auth0.com`.
 
 **Authorization Url**
 `https://<YOUR_AUTH0_APP_DOMAIN>/authorize?client_id=<YOUR_AUTH0_APP_CLIENT_ID>&response_type=code&redirect_uri=https://api.xrphone.app/custom-apps/oauth&scope=offline_access&audience=<YOUR_AUTH0_APP_IDENTIFIER>`
@@ -85,7 +85,7 @@ All of the values below with bracket need to be replaced with the literal value.
 
 >[!NOTE]
 ><b>Where do I find my apps Webhook Url?</b><br>
-The **Webhook Url** should point to your remote server which hosts the custom app API. The XRPhone platform will send webhook POST requests to your app API server. \n\n**For example:** `https://api.my-app.com/xrphone/webhook-callback`\n\nIn the example above the developer configured a host called `api.my-app.com` with a `POST` endpoint resource located at path `/xrphone/webhook-callback`. \n\nYou will use any host and any resource path you wish to use. Just make sure you provide that in this field. This is where XRPhone will send the webhook requests like `INVOICE_LOOKUP` and `INVOICE_PAYMENT`.
+The **Webhook Url** should point to your remote server which hosts the custom app API. The XRPhone platform will send webhook POST requests to your app API server. **For example:** `https://api.my-app.com/xrphone/webhook-callback`. In the example above the developer configured a host called `api.my-app.com` with a `POST` endpoint resource located at path `/xrphone/webhook-callback`. You will use any host and any resource path you wish to use. Just make sure you provide that in this field. This is where XRPhone will send the webhook requests like `INVOICE_LOOKUP` and `INVOICE_PAYMENT`.
 
 **Webhook Url**
 `<YOUR_WEBHOOK_URL>`
@@ -107,7 +107,7 @@ We have now officially completed all of the application configuration. Next we w
 
 >[!NOTE]
 ><b>Note about Custom App Example</b><br>
-The steps below utilize [Node.js](https://nodejs.org) (server-side JavaScript) with the [Express.js](https://expressjs.com) library. In addition, the example showcases the XRPhone SDK Library for Node.js. \n\nIt should be noted that you can use any language you like. For developers building with other languages you will need to make sure you formulate the webhook payload responses with the correct object body. As of now the SDK handles this for the developers working with Node.js.
+The steps below utilize [Node.js](https://nodejs.org) (server-side JavaScript) with the [Express.js](https://expressjs.com) library. In addition, the example showcases the XRPhone SDK Library for Node.js. It should be noted that you can use any language you like. For developers building with other languages you will need to make sure you formulate the webhook payload responses with the correct object body. As of now the SDK handles this for the developers working with Node.js.
 
 ## Configuring App Code
 
